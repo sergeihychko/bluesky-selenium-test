@@ -16,6 +16,6 @@ public class Main {
         Thread.sleep(3000);
         driver.close();
 
-        println("Selenium first new proect");
+        println("Selenium first new project");
         }
     }
