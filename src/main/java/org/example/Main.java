@@ -11,7 +11,7 @@ import static java.lang.IO.println;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     static void main() throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Browser drivers\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "C:\\Browser drivers\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get("http://localhost:4200/recent");
         driver.manage().window().maximize();
